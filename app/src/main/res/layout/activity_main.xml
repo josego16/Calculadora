@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -40,8 +41,10 @@
                 android:layout_gravity="center"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
+                android:background="@drawable/boton_terciario"
                 android:text="@string/texto_del"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                app:backgroundTint="@null" />
         </LinearLayout>
 
         <LinearLayout
@@ -68,8 +71,10 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_terciario"
                     android:text="@string/texto_AC"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_masmenos"
@@ -78,8 +83,11 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_secundario"
                     android:text="@string/texto_masmenos"
-                    android:textSize="20sp" />
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_porcentaje"
@@ -88,8 +96,11 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_secundario"
                     android:text="@string/texto_porcentaje"
-                    android:textSize="20sp" />
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_dividir"
@@ -98,8 +109,11 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_secundario"
                     android:text="@string/texto_dividir"
-                    android:textSize="20sp" />
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
             </LinearLayout>
 
             <LinearLayout
@@ -118,8 +132,10 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
                     android:text="@string/texto_siete"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_ocho"
@@ -129,8 +145,10 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
                     android:text="@string/texto_ocho"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_nueve"
@@ -140,8 +158,10 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
                     android:text="@string/texto_nueve"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_multiplicacion"
@@ -150,8 +170,11 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_secundario"
                     android:text="@string/texto_multiplicacion"
-                    android:textSize="20sp" />
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
             </LinearLayout>
 
             <LinearLayout
@@ -170,8 +193,10 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
                     android:text="@string/texto_cuatro"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_cinco"
@@ -181,8 +206,10 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
                     android:text="@string/texto_cinco"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_seis"
@@ -192,8 +219,10 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
                     android:text="@string/texto_seis"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_menos"
@@ -202,8 +231,11 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_secundario"
                     android:text="@string/texto_menos"
-                    android:textSize="20sp" />
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
             </LinearLayout>
 
             <LinearLayout
@@ -222,8 +254,11 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
                     android:text="@string/texto_uno"
-                    android:textSize="20sp" />
+
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_dos"
@@ -233,8 +268,10 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
                     android:text="@string/texto_dos"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_tres"
@@ -244,8 +281,10 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
                     android:text="@string/texto_tres"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_mas"
@@ -254,8 +293,11 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_secundario"
                     android:text="@string/texto_mas"
-                    android:textSize="20sp" />
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
             </LinearLayout>
 
             <LinearLayout
@@ -274,8 +316,10 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_principal"
                     android:text="@string/texto_cero"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_coma"
@@ -284,8 +328,11 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_secundario"
                     android:text="@string/texto_coma"
-                    android:textSize="20sp" />
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
 
                 <Button
                     android:id="@+id/button_igual"
@@ -294,8 +341,11 @@
                     android:layout_gravity="center"
                     android:layout_margin="8dp"
                     android:layout_weight="1"
+                    android:background="@drawable/boton_secundario"
                     android:text="@string/texto_igual"
-                    android:textSize="20sp" />
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="20sp"
+                    app:backgroundTint="@null" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
